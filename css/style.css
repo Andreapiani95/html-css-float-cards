@@ -62,17 +62,10 @@ h2{
     background-color: #FFFFFE;
 }
 
-h3{  
-    text-align: left;
-}
-
-p{
-    text-align: left;
-}
-
 .single-column{
     width: calc( 100%/3 );
     float: left;
+    text-align: left;
 
 }
 
@@ -111,10 +104,4 @@ ALTRO
 .float-left{
     float: left;
 }
-
-/*
-
-DEBUG
-
-*/
 
