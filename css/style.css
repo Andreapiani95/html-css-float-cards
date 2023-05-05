@@ -9,3 +9,79 @@ RESET
     margin: 0%;
     box-sizing: border-box;
 }
+
+
+/*
+
+GENERAL
+
+*/
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*
+
+BODY
+
+*/
+
+body{
+    background-color: #0E0E0E;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 2%;
+    background-color: #FFFFFE;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 3%;
+}
+
+p{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.columns{
+    float: left;
+    background-color: #FFFFFE;
+}
+
+.single-column{
+    width: calc(100%/3);
+
+}
+
+
+
+/*
+
+ALTRO
+
+*/
+
+.pink-text{
+    color: #E53170;
+}
+
+.dark-background{
+    background-color: #0F0E17;
+}
+
+.blue-text{
+    color: #0F97DA;
+}
+
